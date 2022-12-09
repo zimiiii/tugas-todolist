@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+    font-family: 'calibri';
+}
+
+.nav-ko  {
+    background-color: yellow;
+    height: 130px;       
+}
+
+.navbar h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.kotak {
+    text-align: center;
+    cursor: pointer;
+}
+
+.kotak form input {
+    width: 1200px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* .kotak form input ::placeholder {
+padding-left: 200px;
+} */
+
+.kotak button {
+    height: 34px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.kotak input {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.isi {
+    background-color: grey;
+    height: 720px;
+}
+
+.isi ul {
+    /* padding-left: 60px; */
+    font-size: 25px;
+    color: white;
+}
+
+.isi ul li {
+    list-style: none;
+    padding-left: 40px;
+    background-color: rgb(20, 20, 20);
+    font-weight: bold;
+    padding-right: 40px;
+    /* margin-left: 90px; */
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+
+ul li:nth-child(odd){
+    background: #2c2c2c;
+}
+
+ul li button {
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 20px; */
+    /* height: 20px; */
+}
